@@ -42,7 +42,8 @@ nav a {
   background: url('../imgs/portfolio-img.jpg');
   background-size: 200px;
   -webkit-filter: grayscale(100%);
-  filter: grayscale(100%)
+  filter: grayscale(100%);
+  opacity: .8;
 }
 
 
@@ -68,6 +69,7 @@ nav a {
   }
 
   #primary-nav {
+    display:block!important;
     background: rgba(0, 0, 0, 0.5);
     padding: 25px;
   }
@@ -96,6 +98,7 @@ nav a {
   }
 
   #primary-nav {
+    display:block;
     background: rgba(0, 0, 0, 0.5);
     padding: 25px;
   }
