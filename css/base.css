@@ -34,36 +34,72 @@ nav a {
   color: #efefef;
 }
 
-@media screen and (min-width: 760px) {
-  .icon-menu {
-    display: none;
-  }
-  nav li {
-    display: inline;
-    margin: 0px;
-    border-top: none;
-    background: none;
-  }
-  #primary-nav {
-    background: rgba(0, 0, 0, 0.5);
-  }
+.profile-img {
+  margin: 0 auto;
+  height: 200px;
+  width: 200px;
+  overflow: hidden;
+  background: url('../imgs/portfolio-img.jpg');
+  background-size: 200px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  opacity: .8;
 }
 
-@media screen and (min-width: 1200px) {
-  body {
-    width: 960px;
+
+@media screen and (min-width: 760px) {
+  .header-wrapper {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  main {
+    width: 520px;
     margin: 0 auto;
   }
   .icon-menu {
     display: none;
   }
+
   nav li {
     display: inline;
     margin: 0px;
     border-top: none;
     background: none;
   }
+
   #primary-nav {
+    display:block!important;
     background: rgba(0, 0, 0, 0.5);
+    padding: 25px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .header-wrapper {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  main {
+    width: 960px;
+    margin: 0 auto;
+  }
+
+  .icon-menu {
+    display: none;
+  }
+
+  nav li {
+    display: inline;
+    margin: 0px;
+    border-top: none;
+    background: none;
+  }
+
+  #primary-nav {
+    display:block;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 25px;
   }
 }
