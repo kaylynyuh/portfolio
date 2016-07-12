@@ -35,35 +35,56 @@ nav a {
 }
 
 @media screen and (min-width: 760px) {
-  .icon-menu {
-    display: none;
+  .header-wrapper {
+    width: 100%;
+    margin: 0 auto;
   }
-  nav li {
-    display: inline;
-    margin: 0px;
-    border-top: none;
-    background: none;
-  }
-  #primary-nav {
-    background: rgba(0, 0, 0, 0.5);
-  }
-}
 
-@media screen and (min-width: 1200px) {
-  body {
-    width: 960px;
+  main {
+    width: 520px;
     margin: 0 auto;
   }
   .icon-menu {
     display: none;
   }
+
   nav li {
     display: inline;
     margin: 0px;
     border-top: none;
     background: none;
   }
+
   #primary-nav {
     background: rgba(0, 0, 0, 0.5);
+    padding: 25px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .header-wrapper {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  main {
+    width: 960px;
+    margin: 0 auto;
+  }
+
+  .icon-menu {
+    display: none;
+  }
+
+  nav li {
+    display: inline;
+    margin: 0px;
+    border-top: none;
+    background: none;
+  }
+
+  #primary-nav {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 25px;
   }
 }
