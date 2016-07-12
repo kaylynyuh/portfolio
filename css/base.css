@@ -21,43 +21,10 @@ nav li {
   border-top: .1em solid white;
 }
 
-.icon-menu {
-  float: right;
-}
-
-#primary-nav {
-  display: none;
-}
-
 nav a {
   text-decoration: none;
   color: #efefef;
 }
-
-.profile-img {
-  margin: 0 auto;
-  height: 200px;
-  width: 200px;
-  overflow: hidden;
-  background: url('../imgs/profile-pic.jpg');
-  background-size: 200px;
-  background-repeat: no-repeat;
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
-  opacity: .9;
-  border-radius: 50%;
-}
-
-.social-icons {
-  padding: 10px;
-  margin-right: 5px;
-}
-
-.social-icons li {
-  display: inline-block;
-  color: #efefef;
-}
-
 
 @media screen and (min-width: 760px) {
   .header-wrapper {
@@ -85,6 +52,10 @@ nav a {
     background: rgba(0, 0, 0, 0.5);
     padding: 25px;
   }
+  .work {
+    height: 300px;
+  }
+
 }
 
 @media screen and (min-width: 1200px) {
@@ -94,7 +65,7 @@ nav a {
   }
 
   main {
-    width: 960px;
+    width: 860px;
     margin: 0 auto;
   }
 
