@@ -39,17 +39,25 @@ nav a {
   height: 200px;
   width: 200px;
   overflow: hidden;
-  background: url('../imgs/portfolio-img.jpg');
+  background: url('../imgs/profile-pic.jpg');
   background-size: 200px;
   background-repeat: no-repeat;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
-  opacity: .8;
+  opacity: .7;
+  border-radius: 50%;
+}
+
+.social-icons {
+  padding: 10px;
+  margin-right: 5px;
 }
 
 .social-icons li {
   display: inline-block;
+  color: #efefef;
 }
+
 
 @media screen and (min-width: 760px) {
   .header-wrapper {
