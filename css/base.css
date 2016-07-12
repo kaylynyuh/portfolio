@@ -47,18 +47,9 @@ nav a {
   opacity: .8;
 }
 
-.social-icons {
+.social-icons li {
   display: inline-block;
 }
-
-.icon-envelop {
-  font-size: 2em;
-}
-
-.icon-facebook2 {
-  font-size: 2em;
-}
-
 
 @media screen and (min-width: 760px) {
   .header-wrapper {
