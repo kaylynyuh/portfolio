@@ -7,3 +7,6 @@ v2.0 | 20110126
 
 Used Poiret One from:
 https://fonts.googleapis.com/css?family=Poiret+One
+
+Used hamburger menu from:
+http://fontawesome.io/icon/bars/

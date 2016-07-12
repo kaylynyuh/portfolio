@@ -34,6 +34,18 @@ nav a {
   color: #efefef;
 }
 
+.profile-img {
+  margin: 0 auto;
+  height: 200px;
+  width: 200px;
+  overflow: hidden;
+  background: url('../imgs/portfolio-img.jpg');
+  background-size: 200px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%)
+}
+
+
 @media screen and (min-width: 760px) {
   .header-wrapper {
     width: 100%;
