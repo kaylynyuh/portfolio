@@ -22,4 +22,21 @@ nav li {
 nav a {
   text-decoration: none;
   color: #efefef;
+  display: none;
+}
+
+@media screen and (min-width: 760px) {
+  .icon-menu {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  body {
+    width: 960px;
+    margin: 0 auto;
+  }
+  .icon-menu {
+    display: none;
+  }
 }
