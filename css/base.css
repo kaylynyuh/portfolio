@@ -41,9 +41,22 @@ nav a {
   overflow: hidden;
   background: url('../imgs/portfolio-img.jpg');
   background-size: 200px;
+  background-repeat: no-repeat;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
   opacity: .8;
+}
+
+.social-icons {
+  display: inline-block;
+}
+
+.icon-envelop {
+  font-size: 2em;
+}
+
+.icon-facebook2 {
+  font-size: 2em;
 }
 
 
