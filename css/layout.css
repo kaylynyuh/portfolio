@@ -1,11 +1,36 @@
-.name h1 {
-  padding: 50px;
-  margin-top: 30px;
-  font-size: 72px;
-  text-align: center;
-}
-
 .about-one {
   margin-bottom: 30px;
   padding: 15px;
+  line-height: 1.5em;
+}
+
+.icon-menu {
+  float: right;
+}
+
+.profile-img {
+  margin: 0 auto;
+  margin-top: 100px;
+  height: 200px;
+  width: 200px;
+  overflow: hidden;
+  background: url('../imgs/profile-pic.jpg');
+  background-size: 200px;
+  background-repeat: no-repeat;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  border-radius: 50%;
+}
+
+.social-icons {
+  padding: 10px;
+  margin-right: 5px;
+}
+
+#primary-nav {
+  display: none;
+}
+
+.work {
+  height: 300px;
 }

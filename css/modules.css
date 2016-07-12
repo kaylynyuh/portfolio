@@ -1,0 +1,11 @@
+.name h1 {
+  padding: 25px;
+  padding-bottom: 30px;
+  font-size: 72px;
+  text-align: center;
+}
+
+.social-icons li {
+  display: inline-block;
+  color: #efefef;
+}
