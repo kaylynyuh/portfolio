@@ -15,19 +15,31 @@ nav {
 }
 
 nav li {
-  display: inline;
-  padding: 10px;
+  display: block;
+  padding: 0 10px;
+  margin: 10px;
+}
+
+.icon-menu {
+  float: right;
+}
+
+#primary-nav {
+  display: none;
 }
 
 nav a {
   text-decoration: none;
   color: #efefef;
-  display: none;
 }
 
 @media screen and (min-width: 760px) {
   .icon-menu {
     display: none;
+  }
+  nav li {
+    display: inline;
+    margin: 0px;
   }
 }
 
@@ -38,5 +50,9 @@ nav a {
   }
   .icon-menu {
     display: none;
+  }
+  nav li {
+    display: inline;
+    margin: 0px;
   }
 }

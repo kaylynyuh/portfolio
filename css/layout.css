@@ -1,7 +1,3 @@
-/*.icon-menu::before {
-	content: "\e902";
-}*/
-
 .name h1 {
   padding: 50px;
   font-size: 72px;
@@ -12,11 +8,6 @@
   margin-bottom: 30px;
   padding: 15px;
 }
-
-/*
-.about-two {
-  margin-bottom: 30px;
-}*/
 
 .profile-img {
   margin: 50px;
