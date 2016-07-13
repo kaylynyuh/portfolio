@@ -2,6 +2,35 @@ $('.icon-menu').click(function() {
   $('#primary-nav').slideToggle('slow');
 });
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // var $sectionContent = $('section').text();
 // $('section').append($sectionContent);
 //
