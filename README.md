@@ -10,3 +10,6 @@ https://fonts.googleapis.com/css?family=Poiret+One
 
 Used hamburger menu from:
 http://fontawesome.io/icon/bars/
+
+Used social icos from:
+https://icomoon.io/app/#/select/font
