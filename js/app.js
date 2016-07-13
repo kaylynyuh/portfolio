@@ -22,7 +22,6 @@ Section.prototype.toHtml = function() {
   } else {
     $newSection.find('p').remove();
   }
-  // $('main').append($newSection);
   $newSection.removeClass('template');
   return $newSection;
 };
@@ -32,16 +31,22 @@ sections.forEach(function(ele) {
   $('main').append(curElem.toHtml());
 });
 
-//redirect on same page
-// $(document).ready(function(){
-//   $('.navItem').click(function(event) {
-//     event.preventDefault();
 //
-//     $('.navItem').removeClass('active').removeClass('on');
-//     $(this).addClass('active').addClass('on');
-//     var panel = $(this).attr('panel-id');
+// $(function() {
+//   %('li.navItem').on('click', function(e) {
+//     for(var i = 0; i < sections.length; i++) {
 //
-//     $('.panel').hide();
-//     $('#'+panel).show();
-//   });
-// });
+//     }
+//   }
+// }
+
+$(document).ready(function(){
+  $('.template').hide();
+  $('.primary-nav').click(function(e) {
+    event.preventDefault();
+    $('template').hide();
+    var id_template = $(this).attr('href');
+    $(id_template).show();
+    return false;
+  });
+});
