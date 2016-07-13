@@ -17,4 +17,17 @@ Section.prototype.toHtml = function() {
   } else {
     $newSection.find('h1').remove();
   }
+  if(this.body) {
+    $newSection.find('p').text(this.body);
+  } else {
+    $newSection.find('p').remove();
+  }
+  // $('main').append($newSection);
+  $newSection.removeClass('template');
+  return $newSection;
 };
+
+sections.forEach(function(ele) {
+  curElem = new Section(ele);
+  $('main').append(curElem.toHtml());
+});
