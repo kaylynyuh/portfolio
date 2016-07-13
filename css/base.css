@@ -6,9 +6,11 @@ body {
   width: 100%;
   margin: 0 auto;
   text-align: center;
-  background: url(../imgs/dark-woods.jpg);
+  background-image: url(../imgs/darkwoods.jpg);
   background-size: cover;
 }
+
+
 
 nav {
   height: 50px;
@@ -40,8 +42,13 @@ nav a {
     width: 520px;
     margin: 0 auto;
   }
+
   .icon-menu {
     display: none;
+  }
+
+  .social-icons a {
+    font-size: 1.5em;
   }
 
   nav li {
@@ -64,7 +71,6 @@ nav a {
     background: rgba(0, 0, 0, 0.5);
     position: absolute;
     left: 0px;
-    margin-top: 50px;
   }
 
   .work-content {
@@ -107,19 +113,12 @@ nav a {
     background: none;
   }
 
-  #primary-nav {
-    display:block;
-    background: rgba(0, 0, 0, 0.5);
-    padding: 25px;
-  }
-
   .work {
     width: 100%;
     margin: 0 auto;
     background: rgba(0, 0, 0, 0.5);
     position: absolute;
     left: 0px;
-    margin-top: 50px;
   }
 
   .work-content {
