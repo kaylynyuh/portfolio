@@ -31,3 +31,17 @@ sections.forEach(function(ele) {
   curElem = new Section(ele);
   $('main').append(curElem.toHtml());
 });
+
+//redirect on same page
+// $(document).ready(function(){
+//   $('.navItem').click(function(event) {
+//     event.preventDefault();
+//
+//     $('.navItem').removeClass('active').removeClass('on');
+//     $(this).addClass('active').addClass('on');
+//     var panel = $(this).attr('panel-id');
+//
+//     $('.panel').hide();
+//     $('#'+panel).show();
+//   });
+// });

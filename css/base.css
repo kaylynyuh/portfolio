@@ -6,7 +6,7 @@ body {
   width: 100%;
   margin: 0 auto;
   text-align: center;
-  background: url(../imgs/dark-woods.jpg);
+  background-image: url(../imgs/darkwoods.jpg);
   background-size: cover;
 }
 
@@ -30,6 +30,14 @@ nav a {
   display: none;
 }
 
+.skills {
+  display: none;
+}
+
+.contact {
+  display: none;
+}
+
 @media screen and (min-width: 760px) {
   .header-wrapper {
     width: 100%;
@@ -37,11 +45,15 @@ nav a {
   }
 
   main {
-    width: 520px;
     margin: 0 auto;
   }
+
   .icon-menu {
     display: none;
+  }
+
+  .social-icons a {
+    font-size: 1.5em;
   }
 
   nav li {
@@ -57,14 +69,16 @@ nav a {
     padding: 25px;
   }
 
+  .about-content {
+    width: 520px;
+    margin: 0 auto;
+  }
+
   .work {
     display: block;
     width: 100%;
     margin: 0 auto;
     background: rgba(0, 0, 0, 0.5);
-    position: absolute;
-    left: 0px;
-    margin-top: 50px;
   }
 
   .work-content {
@@ -77,10 +91,63 @@ nav a {
   .work-content h1 {
     margin-top: 50px;
     margin-bottom: 30px;
+    padding-top: 50px;
     font-size: 42px;
   }
 
   .work-content p {
+    padding-bottom: 50px;
+    line-height: 1.5em;
+  }
+
+  .skills {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.5);
+    left: 0px;
+  }
+
+  .skills-content {
+    height: 300px;
+    display: block;
+    width: 520px;
+    margin: 0 auto;
+  }
+
+  .skills-content h1 {
+    margin-bottom: 30px;
+    padding-top: 50px;
+    font-size: 42px;
+  }
+
+  .skills-content p {
+    line-height: 1.5em;
+    padding-bottom: 50px;
+  }
+
+  .contact {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.5);
+    left: 0px;
+  }
+
+  .contact-content {
+    height: 300px;
+    display: block;
+    width: 520px;
+    margin: 0 auto;
+  }
+
+  .contact-content h1 {
+    padding-top: 50px;
+    margin-bottom: 30px;
+    font-size: 42px;
+  }
+
+  .contact-content p {
     line-height: 1.5em;
   }
 }
@@ -92,7 +159,6 @@ nav a {
   }
 
   main {
-    width: 860px;
     margin: 0 auto;
   }
 
@@ -107,19 +173,16 @@ nav a {
     background: none;
   }
 
-  #primary-nav {
-    display:block;
-    background: rgba(0, 0, 0, 0.5);
-    padding: 25px;
+  .about-content {
+    width: 860px;
+    margin: 0 auto;
   }
 
   .work {
     width: 100%;
     margin: 0 auto;
     background: rgba(0, 0, 0, 0.5);
-    position: absolute;
     left: 0px;
-    margin-top: 50px;
   }
 
   .work-content {
@@ -137,5 +200,31 @@ nav a {
 
   .work-content p {
     line-height: 1.5em;
+  }
+
+  .skills {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.5);
+    left: 0px;
+  }
+
+  .skills-content {
+    width: 860px;
+    margin: 0 auto;
+  }
+
+  .contact {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.5);
+    left: 0px;
+  }
+
+  .contact-content {
+    width: 860px;
+    margin: 0 auto;
   }
 }
