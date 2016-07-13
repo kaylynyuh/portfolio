@@ -10,8 +10,6 @@ body {
   background-size: cover;
 }
 
-
-
 nav {
   height: 50px;
 }
@@ -32,6 +30,10 @@ nav a {
   display: none;
 }
 
+.skills {
+  display: none;
+}
+
 @media screen and (min-width: 760px) {
   .header-wrapper {
     width: 100%;
@@ -39,7 +41,7 @@ nav a {
   }
 
   main {
-    width: 520px;
+    /*width: 520px;*/
     margin: 0 auto;
   }
 
@@ -69,8 +71,8 @@ nav a {
     width: 100%;
     margin: 0 auto;
     background: rgba(0, 0, 0, 0.5);
-    position: absolute;
-    left: 0px;
+    /*position: absolute;
+    left: 0px;*/
   }
 
   .work-content {
@@ -87,6 +89,29 @@ nav a {
   }
 
   .work-content p {
+    line-height: 1.5em;
+  }
+
+  .skills {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .skills-content {
+    height: 500px;
+    display: block;
+    width: 520px;
+    margin: 0 auto;
+  }
+
+  .skills-content h1 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 42px;
+  }
+
+  .skills-content p {
     line-height: 1.5em;
   }
 }
@@ -117,7 +142,6 @@ nav a {
     width: 100%;
     margin: 0 auto;
     background: rgba(0, 0, 0, 0.5);
-    position: absolute;
     left: 0px;
   }
 
