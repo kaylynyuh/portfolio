@@ -34,11 +34,17 @@ sections.forEach(function(ele) {
 $(function() {
   $('.navItem').on('click', function() {
     var sectionIdentifier = $(this).data('section');
-    console.log(sectionIdentifier);
-    $('section[class="' + sectionIdentifier + '"]').show();
-    $('section[class!="' + sectionIdentifier + '"]').hide();
-    if(sectionIdentifier === 'about') {
-      $('section.name').show();
+    var windowWidth = $(window).width();
+    if (windowWidth > 760) {
+      console.log('window is greater than 760!');
+      var pos = $('section[class="' + sectionIdentifier + '"]').offset();
+      $('body').animate({ scrollTop: pos.top }, 50);
+    } else {
+      $('section[class="' + sectionIdentifier + '"]').show();
+      $('section[class!="' + sectionIdentifier + '"]').hide();
+      if(sectionIdentifier === 'about') {
+        $('section.name').show();
+      }
     }
   });
 });
