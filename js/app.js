@@ -36,7 +36,6 @@ $(function() {
     var sectionIdentifier = $(this).data('section');
     var windowWidth = $(window).width();
     if (windowWidth > 760) {
-      console.log('window is greater than 760!');
       var pos = $('section[class="' + sectionIdentifier + '"]').offset();
       $('body').animate({ scrollTop: pos.top }, 50);
     } else {
