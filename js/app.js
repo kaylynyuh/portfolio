@@ -31,22 +31,14 @@ sections.forEach(function(ele) {
   $('main').append(curElem.toHtml());
 });
 
-//
-// $(function() {
-//   %('li.navItem').on('click', function(e) {
-//     for(var i = 0; i < sections.length; i++) {
-//
-//     }
-//   }
-// }
-
-$(document).ready(function(){
-  $('.template').hide();
-  $('.primary-nav').click(function(e) {
-    event.preventDefault();
-    $('template').hide();
-    var id_template = $(this).attr('href');
-    $(id_template).show();
-    return false;
+$(function() {
+  $('.navItem').on('click', function() {
+    var sectionIdentifier = $(this).data('section');
+    console.log(sectionIdentifier);
+    $('section[class="' + sectionIdentifier + '"]').show();
+    $('section[class!="' + sectionIdentifier + '"]').hide();
+    if(sectionIdentifier === 'about') {
+      $('section.name').show();
+    }
   });
 });
