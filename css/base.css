@@ -82,7 +82,7 @@ nav a {
   }
 
   .work-content {
-    height: 500px;
+    /*height: 500px;*/
     display: block;
     width: 520px;
     margin: 0 auto;
@@ -109,7 +109,7 @@ nav a {
   }
 
   .skills-content {
-    height: 300px;
+    /*height: 300px;*/
     display: block;
     width: 520px;
     margin: 0 auto;
@@ -135,7 +135,6 @@ nav a {
   }
 
   .contact-content {
-    height: 300px;
     display: block;
     width: 520px;
     margin: 0 auto;
@@ -186,7 +185,7 @@ nav a {
   }
 
   .work-content {
-    height: 500px;
+    /*height: 500px;*/
     display: block;
     width: 860px;
     margin: 0 auto;

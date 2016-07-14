@@ -13,3 +13,6 @@ http://fontawesome.io/icon/bars/
 
 Used social icos from:
 https://icomoon.io/app/#/select/font
+
+Used jQuery scroll to div from by weltraumpirat:
+http://stackoverflow.com/questions/5284814/jquery-scroll-to-div

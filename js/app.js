@@ -22,7 +22,6 @@ Section.prototype.toHtml = function() {
   } else {
     $newSection.find('p').remove();
   }
-  // $('main').append($newSection);
   $newSection.removeClass('template');
   return $newSection;
 };
@@ -32,16 +31,20 @@ sections.forEach(function(ele) {
   $('main').append(curElem.toHtml());
 });
 
-//redirect on same page
-// $(document).ready(function(){
-//   $('.navItem').click(function(event) {
-//     event.preventDefault();
-//
-//     $('.navItem').removeClass('active').removeClass('on');
-//     $(this).addClass('active').addClass('on');
-//     var panel = $(this).attr('panel-id');
-//
-//     $('.panel').hide();
-//     $('#'+panel).show();
-//   });
-// });
+$(function() {
+  $('.navItem').on('click', function() {
+    var sectionIdentifier = $(this).data('section');
+    var windowWidth = $(window).width();
+    if (windowWidth > 760) {
+      console.log('window is greater than 760!');
+      var pos = $('section[class="' + sectionIdentifier + '"]').offset();
+      $('body').animate({ scrollTop: pos.top }, 50);
+    } else {
+      $('section[class="' + sectionIdentifier + '"]').show();
+      $('section[class!="' + sectionIdentifier + '"]').hide();
+      if(sectionIdentifier === 'about') {
+        $('section.name').show();
+      }
+    }
+  });
+});

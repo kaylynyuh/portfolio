@@ -1,9 +1,3 @@
-.about {
-  margin-bottom: 30px;
-  padding: 15px;
-  line-height: 1.5em;
-}
-
 .icon-menu {
   float: right;
 }
@@ -28,8 +22,4 @@
 
 #primary-nav {
   display: none;
-}
-
-.work-content {
-  height: 300px;
 }
