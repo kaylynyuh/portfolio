@@ -2,13 +2,7 @@ $('.icon-menu').click(function() {
   $('#primary-nav').slideToggle('slow');
 });
 
-var sectionsArray = [];
-
-function Section (opts) {
-  this.name = opts.name;
-  this.title = opts.title;
-  this.body = opts.body;
-}
+var sectionsArr = [];
 
 Section.prototype.toHtml = function() {
   var source = $('#section-template').html();
@@ -16,13 +10,18 @@ Section.prototype.toHtml = function() {
   return template(this);
 };
 
-sections.forEach(function(sectionObj) {
-  sectionsArray.push(new Section(sectionObj));
+sections.forEach(function(sectionObject) {
+  sectionsArr.push(new Section(sectionObject));
 });
 
-sectionsArray.forEach(function(generateNewSections) {
-  $('main').append(generateNewSections.toHtml());
+sectionsArr.forEach(function(ourNewInstantiatedSectionObject){
+  $('main').append(ourNewInstantiatedSectionObject.toHtml());
 });
+
+
+function Section (opts) {
+  for (key in opts) this[key] = opts[key];
+}
 
 $(function() {
   $('.navItem').on('click', function() {

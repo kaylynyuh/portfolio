@@ -22,11 +22,7 @@
 }
 
 .work-content h1 {
-  /*margin-top: 25px;
-  margin-bottom: 25px;
-  font-size: 35px;*/
   margin-top: 50px;
-  /* margin-bottom: 25px; */
   font-size: 35px;
 }
 
@@ -36,11 +32,7 @@
 }
 
 .skills-content h1 {
-  /*margin-top: 25px;*/
-  /*margin-bottom: 25px;
-  font-size: 35px;*/
   margin-top: 50px;
-  /* margin-bottom: 25px; */
   font-size: 35px;
 }
 
@@ -51,7 +43,6 @@
 
 .contact-content h1{
   margin-top: 50px;
-  /* margin-bottom: 25px; */
   font-size: 35px;
 }
 
