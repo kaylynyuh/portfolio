@@ -10,6 +10,14 @@ body {
   background-size: cover;
 }
 
+section p:empty {
+  display: none;
+}
+
+section h1:empty {
+  display: none;
+}
+
 nav {
   height: 50px;
 }
@@ -82,14 +90,12 @@ nav a {
   }
 
   .work-content {
-    /*height: 500px;*/
     display: block;
     width: 520px;
     margin: 0 auto;
   }
 
   .work-content h1 {
-    margin-top: 50px;
     margin-bottom: 30px;
     padding-top: 50px;
     font-size: 42px;
@@ -109,7 +115,6 @@ nav a {
   }
 
   .skills-content {
-    /*height: 300px;*/
     display: block;
     width: 520px;
     margin: 0 auto;
@@ -185,14 +190,13 @@ nav a {
   }
 
   .work-content {
-    /*height: 500px;*/
     display: block;
     width: 860px;
     margin: 0 auto;
   }
 
   .work-content h1 {
-    margin-top: 50px;
+    /*margin-top: 50px;*/
     margin-bottom: 30px;
     font-size: 42px;
   }
