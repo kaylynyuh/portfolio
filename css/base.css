@@ -10,6 +10,10 @@ body {
   background-size: cover;
 }
 
+.hide {
+  display: none;
+}
+
 section p:empty {
   display: none;
 }
