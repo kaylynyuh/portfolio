@@ -10,10 +10,6 @@ body {
   background-size: cover;
 }
 
-.hide {
-  display: none;
-}
-
 section p:empty {
   display: none;
 }
@@ -81,6 +77,9 @@ nav a {
     padding: 25px;
   }
 
+  p {
+    font-size: 18px;
+  }
   .about-content {
     width: 520px;
     margin: 0 auto;
@@ -179,6 +178,10 @@ nav a {
     margin: 0px;
     border-top: none;
     background: none;
+  }
+
+  p {
+    font-size: 22px;
   }
 
   .about-content {

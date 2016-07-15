@@ -23,3 +23,17 @@
 #primary-nav {
   display: none;
 }
+
+.hide {
+  display: none;
+}
+
+.read-more-show {
+  text-decoration: none;
+  color: #efefef;
+}
+
+.read-more-hide {
+  text-decoration: none;
+  color: #efefef;
+}
