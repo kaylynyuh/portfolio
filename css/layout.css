@@ -31,9 +31,13 @@
 .read-more-show {
   text-decoration: none;
   color: #efefef;
+  font-weight: bold;
+  font-size: 14px;
 }
 
 .read-more-hide {
   text-decoration: none;
   color: #efefef;
+  font-weight: bold;
+  font-size: 14px;
 }
