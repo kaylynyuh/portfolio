@@ -61,6 +61,18 @@ h2 {
     margin: 0 auto;
   }
 
+
+  body {
+    font-size: 18px;
+  }
+
+  nav li {
+    display: inline;
+    margin: 0px;
+    border-top: none;
+    background: none;
+  }
+
   .icon-menu {
     display: none;
   }
@@ -73,25 +85,20 @@ h2 {
     font-size: 1.5em;
   }
 
-  nav li {
-    display: inline;
-    margin: 0px;
-    border-top: none;
-    background: none;
-  }
-
   #primary-nav {
     display:block!important;
     background: rgba(0, 0, 0, 0.5);
     padding: 25px;
   }
 
-  body {
-    font-size: 18px;
-  }
   .about-content {
     width: 520px;
     margin: 0 auto;
+  }
+
+  section.work {
+    /*border-bottom: 1px solid #888;*/
+    /*margin-bottom: 1px;*/
   }
 
   .work {
@@ -178,10 +185,6 @@ h2 {
     margin: 0 auto;
   }
 
-  .icon-menu {
-    display: none;
-  }
-
   nav li {
     display: inline;
     margin: 0px;
@@ -191,6 +194,11 @@ h2 {
 
   body {
     font-size: 22px;
+  }
+
+
+  .icon-menu {
+    display: none;
   }
 
   .about-content {

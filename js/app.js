@@ -42,7 +42,7 @@ $(function() {
 });
 
 
-// Hide the extra content initially, using JS so that if JS is disabled, no problemo:
+// Hide the extra content initially
 $('.read-more-content').addClass('hide')
 
 // Set up a link to expand the hidden content:
