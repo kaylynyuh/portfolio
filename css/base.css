@@ -71,6 +71,8 @@ h2 {
     margin: 0px;
     border-top: none;
     background: none;
+    padding-left: 35px;
+    font-size: 22px;
   }
 
   .icon-menu {
@@ -179,6 +181,10 @@ h2 {
 }
 
 @media screen and (min-width: 1200px) {
+  nav li {
+    font-size: 24px;
+  }
+
   .about-content {
     width: 860px;
     margin: 0 auto;
