@@ -46,10 +46,10 @@ $(function() {
 $('.read-more-content').addClass('hide')
 
 // Set up a link to expand the hidden content:
-.before('<a class="read-more-show" href="#">Read More</a>')
+.before('<a class="read-more-show" href="#">&rarr; Read More;</a>')
 
 // Set up a link to hide the expanded content.
-.append(' <a class="read-more-hide" href="#">Read Less</a>');
+.append(' <a class="read-more-hide" href="#">&larr;Read Less;</a>');
 
 // Set up the toggle effect:
 $('.read-more-show').on('click', function(e) {
