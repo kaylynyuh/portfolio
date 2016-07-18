@@ -1,3 +1,7 @@
+main {
+  background: rgba(0, 0, 0, 0.5);
+}
+
 body {
   font-family: 'Poiret One', cursive;
   font-weight: bold;
@@ -34,6 +38,10 @@ nav a {
   color: #efefef;
 }
 
+.about-content {
+  text-shadow: 2px 2px black;
+}
+
 .work {
   display: none;
 }
@@ -57,11 +65,6 @@ h2 {
     margin: 0 auto;
   }
 
-  main {
-    margin: 0 auto;
-  }
-
-
   body {
     font-size: 18px;
   }
@@ -71,18 +74,32 @@ h2 {
     margin: 0px;
     border-top: none;
     background: none;
+    padding-left: 35px;
+    font-size: 22px;
+  }
+
+  .profile-img:hover {
+    margin: 0 auto;
+    margin-top: 100px;
+    height: 200px;
+    width: 200px;
+    background: url('../imgs/raven.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 25%;
   }
 
   .icon-menu {
     display: none;
   }
 
-  .social-icons {
-    margin-bottom: 75px;
-  }
-
   .social-icons a {
     font-size: 1.5em;
+  }
+
+  .icon-github {
+    text-decoration: none;
+    color: #efefef;
   }
 
   #primary-nav {
@@ -92,13 +109,12 @@ h2 {
   }
 
   .about-content {
-    width: 520px;
+    width: 620px;
     margin: 0 auto;
   }
 
-  section.work {
-    /*border-bottom: 1px solid #888;*/
-    /*margin-bottom: 1px;*/
+  .about-content p {
+    font-size: 20px;
   }
 
   .work {
@@ -110,7 +126,7 @@ h2 {
 
   .work-content {
     display: block;
-    width: 520px;
+    width: 620px;
     margin: 0 auto;
   }
 
@@ -120,9 +136,16 @@ h2 {
     font-size: 42px;
   }
 
+  .work-content h2 {
+    text-align: left;
+    margin-left: 38px;
+    font-size: 22px;
+  }
+
   .work-content p {
     padding-bottom: 50px;
-    line-height: 1.5em;
+    font-size: 20px;
+    text-align: left;
   }
 
   .skills {
@@ -135,7 +158,7 @@ h2 {
 
   .skills-content {
     display: block;
-    width: 520px;
+    width: 620px;
     margin: 0 auto;
   }
 
@@ -146,8 +169,8 @@ h2 {
   }
 
   .skills-content p {
-    line-height: 1.5em;
     padding-bottom: 50px;
+    font-size: 20px;
   }
 
   .contact {
@@ -160,7 +183,7 @@ h2 {
 
   .contact-content {
     display: block;
-    width: 520px;
+    width: 620px;
     margin: 0 auto;
   }
 
@@ -171,39 +194,22 @@ h2 {
   }
 
   .contact-content p {
-    line-height: 1.5em;
+    font-size: 20px;
   }
 }
 
 @media screen and (min-width: 1200px) {
-  .header-wrapper {
-    width: 100%;
-    margin: 0 auto;
-  }
-
-  main {
-    margin: 0 auto;
-  }
-
   nav li {
-    display: inline;
-    margin: 0px;
-    border-top: none;
-    background: none;
-  }
-
-  body {
-    font-size: 22px;
-  }
-
-
-  .icon-menu {
-    display: none;
+    font-size: 24px;
   }
 
   .about-content {
     width: 860px;
     margin: 0 auto;
+  }
+
+  .about-content p {
+    font-size: 22px;
   }
 
   .work {
@@ -220,25 +226,16 @@ h2 {
   }
 
   .work-content h1 {
-    /*margin-top: 50px;*/
     margin-bottom: 30px;
     font-size: 42px;
   }
 
   .work-content h2 {
-    font-size: 22px;
+    font-size: 26px;
   }
 
   .work-content p {
-    line-height: 1.5em;
-  }
-
-  .skills {
-    display: block;
-    width: 100%;
-    margin: 0 auto;
-    background: rgba(0, 0, 0, 0.5);
-    left: 0px;
+    font-size: 22px;
   }
 
   .skills-content {
@@ -246,16 +243,16 @@ h2 {
     margin: 0 auto;
   }
 
-  .contact {
-    display: block;
-    width: 100%;
-    margin: 0 auto;
-    background: rgba(0, 0, 0, 0.5);
-    left: 0px;
+  .skills-content p {
+    font-size: 22px;
   }
 
   .contact-content {
     width: 860px;
     margin: 0 auto;
+  }
+
+  .contact-content p {
+    font-size: 22px;
   }
 }
