@@ -19,6 +19,10 @@ section h1:empty {
   display: none;
 }
 
+section.about {
+  margin-bottom: 75px;
+}
+
 nav {
   height: 50px;
 }
@@ -101,7 +105,7 @@ h2 {
 
   h1:not(.name-content h1) {
     font-size: 42px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     padding-top: 50px;
   }
 
@@ -122,6 +126,7 @@ h2 {
   }
 
   .work-content {
+    padding-top: 35px;
     display: block;
     width: 620px;
     margin: 0 auto;
