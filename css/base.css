@@ -78,6 +78,17 @@ h2 {
     font-size: 22px;
   }
 
+  .profile-img:hover {
+    margin: 0 auto;
+    margin-top: 100px;
+    height: 200px;
+    width: 200px;
+    background: url('../imgs/raven.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 25%;
+  }
+
   .icon-menu {
     display: none;
   }
@@ -88,7 +99,7 @@ h2 {
 
   .icon-github {
     text-decoration: none;
-    color: #efefef; 
+    color: #efefef;
   }
 
   #primary-nav {
