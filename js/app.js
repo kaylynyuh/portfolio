@@ -24,10 +24,11 @@ Section.loadAll = function(dataWePassIn) {
 };
 
 
-//the else will use .get() to request data from the server 
+//the else will use .get() to request data from the server
 Section.fetchAll = function() {
   if (localStorage.sections) {
     Section.loadAll(JSON.parse(localStorage.sections));
+    appendSections();
   } else {
     // Load our json data
     $.ajax({
@@ -37,14 +38,19 @@ Section.fetchAll = function() {
     }).done(function(data) {
       // Store that data in localStorage so we can skip the server call next time
       localStorage.sections = JSON.stringify(data);
+      Section.loadAll(data);
+      appendSections();
     });
   }
 };
 
+appendSections = function () {
+  Section.all.forEach(function(generateNewSections) {
+    $('main').append(generateNewSections.toHtml('#section-template'));
+  });
+};
+
 Section.fetchAll();
-Section.all.forEach(function(generateNewSections) {
-  $('main').append(generateNewSections.toHtml('#section-template'));
-});
 
 // Hide the extra content initially
 $('.read-more-content').addClass('hide')
