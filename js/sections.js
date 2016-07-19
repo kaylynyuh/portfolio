@@ -1,4 +1,4 @@
-var sections = [
+[
   {
     name: 'name',
     title: 'Kaylyn Yuh',
