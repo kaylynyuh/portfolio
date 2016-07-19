@@ -2,14 +2,11 @@ $('.icon-menu').click(function() {
   $('#primary-nav').slideToggle('slow');
 });
 
-// var sectionsArray = [];
-
 function Section (opts) {
   this.name = opts.name;
   this.title = opts.title;
   this.body = opts.body;
 }
-
 
 Section.all = [];
 
@@ -19,13 +16,15 @@ Section.prototype.toHtml = function(scriptTemplateId) {
   return template(this);
 };
 
+//loading the new sections
 Section.loadAll = function(dataWePassIn) {
-  console.log(dataWePassIn);
   dataWePassIn.forEach(function(ele) {
     Section.all.push(new Section(ele));
   });
 };
 
+
+//the else will use .get() to request data from the server 
 Section.fetchAll = function() {
   if (localStorage.sections) {
     Section.loadAll(JSON.parse(localStorage.sections));
