@@ -1,7 +1,7 @@
 (function(){
 
   // handle social icons
-  var socialNetworks = ['linkedin', 'github', 'twitter', 'github'];
+  var socialNetworks = ['linkedin', 'github', 'twitter'];
   var socialNetworkIcons = socialNetworks.map(function(ele){
     return 'icon-' + ele;
   });
@@ -9,10 +9,17 @@
   socialNetworkIcons.forEach(function(network){
     $('#social-icons').append('<li><a href="#" class="' + network + '"></a></li>');
   });
-
-
-
   console.log(socialNetworkIcons);
+
+  var favoriteHikes = ['Bridal Veil Falls', 'Mt. Pilchuck', 'Lake Serene', 'Cherry Creek Falls', 'Lake Twenty Two', 'Cape Flattery', 'Boulder River Creek'];
+
+  var total = favoriteHikes.reduce(function(sum, word){
+    return sum + word.length;
+  }, 0)
+  console.log(total);
+
+
+
 
   $('.icon-menu').click(function() {
     $('#primary-nav').slideToggle('slow');
