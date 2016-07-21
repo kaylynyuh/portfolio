@@ -1,15 +1,14 @@
 (function(){
 
-  // handle social icons
-  var socialNetworks = ['linkedin', 'github', 'twitter'];
-  var socialNetworkIcons = socialNetworks.map(function(ele){
-    return 'icon-' + ele;
-  });
-
-  socialNetworkIcons.forEach(function(network){
-    $('#social-icons').append('<li><a href="#" class="' + network + '"></a></li>');
-  });
-  console.log(socialNetworkIcons);
+  // var socialNetworks = ['linkedin', 'github', 'twitter'];
+  // var socialNetworkIcons = socialNetworks.map(function(ele){
+  //   return 'icon-' + ele;
+  // });
+  //
+  // socialNetworkIcons.forEach(function(network){
+  //   $('.social-icons').append('<li><a href="#" class="' + network + '"></a></li>');
+  // });
+  // console.log(socialNetworkIcons);
 
   $('.icon-menu').click(function() {
     $('#primary-nav').slideToggle('slow');

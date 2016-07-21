@@ -39,6 +39,10 @@ nav a {
   color: #efefef;
 }
 
+nav a:visted {
+  color:purple;
+}
+
 .about-content {
   text-shadow: 2px 2px black;
 }
@@ -170,7 +174,6 @@ h2 {
     width: 620px;
     margin: 0 auto;
   }
-
 }
 
 @media screen and (min-width: 1200px) {
