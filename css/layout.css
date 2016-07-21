@@ -6,9 +6,13 @@ i.fa.fa-bars::before {
   font-size: 28px;
 }
 
-.social-icons {
+.name-about {
   margin-top: 8em;
 }
+
+/*.social-icons {
+  margin-top: 8em;
+}*/
 
 #primary-nav {
   display: none;

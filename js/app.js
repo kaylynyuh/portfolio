@@ -63,7 +63,7 @@
   };
 
   Section.fetchAll();
-
+  console.log(Section.all);
   // Hide the extra content initially
   $('.read-more-content').addClass('hide')
   // Set up a link to expand the hidden content:
