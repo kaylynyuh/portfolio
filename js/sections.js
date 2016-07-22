@@ -1,10 +1,5 @@
 [
   {
-    name: 'name',
-    title: 'Kaylyn Yuh',
-    body: ''
-  },
-  {
     name: 'about',
     title: '',
     body: 'Hello! My name is Kaylyn Yuh and I\'m a Seattle based software engineer. I\'m just a pluviophile who likes to write code, explore the outdoors, and drink coffee. I take my coffee black and Fall is my favorite time of the year. I am experienced with HTML, CSS, JavaScript, jQuery, and Git.'
