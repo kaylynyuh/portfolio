@@ -1,3 +1,7 @@
+html,body,main {
+  height: 100%;
+}
+
 main {
   background: rgba(0, 0, 0, 0.5);
 }
@@ -73,9 +77,9 @@ h2 {
 }
 
 @media screen and (min-width: 760px) {
-
   main {
     background: rgba(0, 0, 0, 0.5);
+    height:auto;
   }
 
   .header-wrapper {

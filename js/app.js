@@ -77,7 +77,7 @@
     e.preventDefault();
   });
 
-  $('.read-more-hide').on('click', function(e) {
+  $('.read-more-hide').on('cjsonlick', function(e) {
     $(this).parent('.read-more-content').addClass('hide').parent().children('.read-more-show').removeClass('hide');
     e.preventDefault();
   });
