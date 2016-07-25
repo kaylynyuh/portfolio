@@ -64,25 +64,17 @@
     });
   };
 
-/* ELW: the comments make fetchAll hard to read.*/
-
   Section.fetchAll();
-  console.log(Section.all); /* ELW: Do you need to log them any more? */
-  // Hide the extra content initially
   $('.read-more-content').addClass('hide')
-  // Set up a link to expand the hidden content:
   .before('<a class="read-more-show" href="#">&rarr; Read More;</a>')
-  // Set up a link to hide the expanded content.
   .append(' <a class="read-more-hide" href="#">&larr;Read Less;</a>');
-  // Set up the toggle effect:
   $('.read-more-show').on('click', function(e) {
     $(this).next('.read-more-content').removeClass('hide');
     $(this).addClass('hide');
     e.preventDefault();
   });
 
-  /* ELW: what is 'cjsonlick'? */
-  $('.read-more-hide').on('cjsonlick', function(e) {
+  $('.read-more-hide').on('click', function(e) {
     $(this).parent('.read-more-content').addClass('hide').parent().children('.read-more-show').removeClass('hide');
     e.preventDefault();
   });
