@@ -14,6 +14,8 @@
   margin: 5px;
 }
 
+/* ELW: Why are you styling each section, rather than all of them at once? */
+
 .about-content p {
   line-height: 1.5em;
   padding: 35px;
@@ -30,6 +32,7 @@
   padding: 35px;
 }
 
+/* ELW: these two sections are displaying differently on the page. */
 .skills-content h1 {
   font-size: 35px;
 }
