@@ -1,3 +1,5 @@
+/* ELW: You have a lot of code in here that might go better/be more logical in one of the other CSS files. IIRC, class and id selectors should mostly be in modules and/or layout.*/
+
 html,body,main {
   height: 100%;
 }
@@ -12,7 +14,7 @@ body {
   color: #efefef;
   letter-spacing: 1px;
   width: 100%;
-  margin: 0 auto;
+  margin: 0 auto; /* ELW: Why are your margins set at 0 auto when your width is 100%? */
   text-align: center;
   background-image: url(../imgs/darkwoods.jpg);
   background-size: cover;
@@ -114,7 +116,7 @@ h2 {
   }
 
   #primary-nav {
-    display:block!important;
+    display:block!important; /* ELW: Why the !important here? */
     background: rgba(0, 0, 0, 0.5);
     padding: 25px;
   }
@@ -130,7 +132,7 @@ h2 {
   }
 
   .about-content {
-    width: 620px;
+    width: 620px; /* ELW: Could you set this (and the other selectors like it) as a percentage so you don't have to redefine for a larger display size below? */
     margin: 0 auto;
   }
 
@@ -207,7 +209,7 @@ h2 {
 
   .about-content {
     width: 860px;
-    margin: 0 auto;
+    margin: 0 auto; /* ELW: I don't think you need to repeat the margins here, since they're already there for the previous breakpoint. Likewise the selectors below. */
   }
 
   .work {

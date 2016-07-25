@@ -1,5 +1,7 @@
 (function(){
 
+/* ELW: What are you working on with this bit of commented out code?*/
+
   // var socialNetworks = ['linkedin', 'github', 'twitter'];
   // var socialNetworkIcons = socialNetworks.map(function(ele){
   //   return 'icon-' + ele;
@@ -62,8 +64,10 @@
     });
   };
 
+/* ELW: the comments make fetchAll hard to read.*/
+
   Section.fetchAll();
-  console.log(Section.all);
+  console.log(Section.all); /* ELW: Do you need to log them any more? */
   // Hide the extra content initially
   $('.read-more-content').addClass('hide')
   // Set up a link to expand the hidden content:
@@ -77,6 +81,7 @@
     e.preventDefault();
   });
 
+  /* ELW: what is 'cjsonlick'? */
   $('.read-more-hide').on('cjsonlick', function(e) {
     $(this).parent('.read-more-content').addClass('hide').parent().children('.read-more-show').removeClass('hide');
     e.preventDefault();
