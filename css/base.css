@@ -29,15 +29,18 @@ section h1:empty {
   display: none;
 }
 
+.social-icons {
+  margin: 1em;
+}
+
 nav {
   height: 50px;
 }
 
 nav li {
-  display: block;
-  padding: 5px 10px;
+  padding: 1% 7%;
   background: rgba(0, 0, 0, 0.5);
-  border-top: .1em solid white;
+  border-top: .1em solid #efefef;
 }
 
 nav a {
@@ -56,6 +59,12 @@ h1 {
 h2 {
   margin-top: 35px;
   font-size: 18px;
+}
+
+p {
+  margin: 5%;
+  font-size: 1.25em;
+  line-height: 1.25em;
 }
 
 .about-content {
@@ -80,13 +89,8 @@ h2 {
     height:auto;
   }
 
-  .header-wrapper {
-    width: 100%;
-    margin: 0 auto;
-  }
-
   body {
-    font-size: 18px;
+    font-size: 1.25em;
   }
 
   nav li {
@@ -96,6 +100,11 @@ h2 {
     background: none;
     padding-left: 35px;
     font-size: 22px;
+  }
+
+  h1:not(.name-content h1) {
+    font-size: 1em;
+    margin-top: 0px;
   }
 
   .icon-menu {
