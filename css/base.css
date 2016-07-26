@@ -10,15 +10,15 @@ main {
 body {
   font-family: 'Poiret One', cursive;
   font-weight: bold;
+  background-image: url(../imgs/darkwoods.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
   color: #efefef;
   letter-spacing: 1px;
   width: 100%;
   margin: 0 auto;
   text-align: center;
-  background-image: url(../imgs/darkwoods.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
 }
 
 section p:empty {
@@ -29,14 +29,9 @@ section h1:empty {
   display: none;
 }
 
-section.about {
-  margin-bottom: 75px;
-}
-
 nav {
   height: 50px;
 }
-
 
 nav li {
   display: block;
@@ -197,7 +192,7 @@ h2 {
   }
 
   h1:not(.name-content h1) {
-    font-size: 42px;
+    font-size: 3em;
   }
 
   h2 {
