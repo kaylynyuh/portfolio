@@ -6,12 +6,9 @@ i.fa.fa-bars::before {
   font-size: 28px;
 }
 
-.name-about {
-  margin-top: 8em;
-}
-
-.first-name {
+h1.first-name {
   font-size: 3em;
+  margin: 0em;
 }
 
 .social-icons {

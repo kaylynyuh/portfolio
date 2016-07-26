@@ -44,9 +44,24 @@ nav a {
   color: #efefef;
 }
 
+h1 {
+  font-size: 1.75em;
+  margin-top: 15%;
+  margin-bottom: 15%;
+}
+
+h2 {
+  margin: 5% 0% 3% 10%;
+  font-size: 1.25em;
+  text-align: left;
+}
+
 p {
   font-size: 1.25em;
   line-height: 1.25em;
+  text-align: left;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .work {
@@ -80,9 +95,21 @@ p {
     font-size: 22px;
   }
 
-  .first-name {
+  .name-about {
+    margin-top: 5%;
+    margin-top: 35%;
+  }
+
+  h1.first-name {
     font-size: 2.5em;
     margin-top: -20%;
+  }
+
+  h1 {
+    font-size: 2em;
+    padding: 5%;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 
   .icon-menu {
@@ -107,6 +134,7 @@ p {
   h1 {
     font-size: 2em;
     padding: 5%;
+    margin-top: 0%;
   }
 
   .section-content {
