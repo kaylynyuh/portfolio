@@ -1,5 +1,5 @@
 .name-about h1 {
-  padding-bottom: .25em;
+  padding-bottom: .5em;
 }
 
 .social-icons li {
@@ -10,15 +10,14 @@
 .social-icons a {
   text-decoration: none;
   color: #efefef;
-  font-size: 1.2em;
-  margin: 5px;
+  font-size: 1.5em;
+  margin: .5em;
 }
-
-/* ELW: Why are you styling each section, rather than all of them at once? */
 
 .about-content p {
   line-height: 1.5em;
-  padding: 35px;
+  margin-top: 2em;
+  margin-bottom: 5em;
 }
 
 .work-content h1 {

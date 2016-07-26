@@ -1,23 +1,24 @@
-/* ELW: You have a lot of code in here that might go better/be more logical in one of the other CSS files. IIRC, class and id selectors should mostly be in modules and/or layout.*/
-
 html,body,main {
   height: 100%;
 }
 
 main {
   background: rgba(0, 0, 0, 0.5);
+  height: 100%;
 }
 
 body {
   font-family: 'Poiret One', cursive;
   font-weight: bold;
+  background-image: url(../imgs/darkwoods.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
   color: #efefef;
   letter-spacing: 1px;
   width: 100%;
-  margin: 0 auto; /* ELW: Why are your margins set at 0 auto when your width is 100%? */
+  margin: 0 auto;
   text-align: center;
-  background-image: url(../imgs/darkwoods.jpg);
-  background-size: cover;
 }
 
 section p:empty {
@@ -28,14 +29,9 @@ section h1:empty {
   display: none;
 }
 
-section.about {
-  margin-bottom: 75px;
-}
-
 nav {
   height: 50px;
 }
-
 
 nav li {
   display: block;
@@ -57,6 +53,11 @@ h1 {
   font-size: 52px;
 }
 
+h2 {
+  margin-top: 35px;
+  font-size: 18px;
+}
+
 .about-content {
   text-shadow: 2px 2px black;
 }
@@ -71,11 +72,6 @@ h1 {
 
 .contact {
   display: none;
-}
-
-h2 {
-  margin-top: 35px;
-  font-size: 18px;
 }
 
 @media screen and (min-width: 760px) {
@@ -116,7 +112,7 @@ h2 {
   }
 
   #primary-nav {
-    display:block!important; /* ELW: Why the !important here? */
+    display:block!important;
     background: rgba(0, 0, 0, 0.5);
     padding: 25px;
   }
@@ -132,7 +128,7 @@ h2 {
   }
 
   .about-content {
-    width: 620px; /* ELW: Could you set this (and the other selectors like it) as a percentage so you don't have to redefine for a larger display size below? */
+    width: 80%;
     margin: 0 auto;
   }
 
@@ -146,7 +142,7 @@ h2 {
   .work-content {
     padding-top: 35px;
     display: block;
-    width: 620px;
+    width: 80%;
     margin: 0 auto;
   }
 
@@ -171,7 +167,7 @@ h2 {
 
   .skills-content {
     display: block;
-    width: 620px;
+    width: 80%;
     margin: 0 auto;
   }
 
@@ -185,7 +181,7 @@ h2 {
 
   .contact-content {
     display: block;
-    width: 620px;
+    width: 80%;
     margin: 0 auto;
   }
 }
@@ -196,7 +192,7 @@ h2 {
   }
 
   h1:not(.name-content h1) {
-    font-size: 42px;
+    font-size: 3em;
   }
 
   h2 {
@@ -209,7 +205,6 @@ h2 {
 
   .about-content {
     width: 860px;
-    margin: 0 auto; /* ELW: I don't think you need to repeat the margins here, since they're already there for the previous breakpoint. Likewise the selectors below. */
   }
 
   .work {
@@ -221,7 +216,7 @@ h2 {
 
   .work-content {
     display: block;
-    width: 860px;
+    width: 80%;
     margin: 0 auto;
   }
 
@@ -230,12 +225,12 @@ h2 {
   }
 
   .skills-content {
-    width: 860px;
+    width: 80%;
     margin: 0 auto;
   }
 
   .contact-content {
-    width: 860px;
+    width: 80%;
     margin: 0 auto;
   }
 
