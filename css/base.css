@@ -117,16 +117,6 @@ h2 {
     padding: 25px;
   }
 
-  h1:not(.name-content h1) {
-    font-size: 42px;
-    margin-bottom: 50px;
-    padding-top: 50px;
-  }
-
-  p {
-    font-size: 20px;
-  }
-
   .about-content {
     width: 80%;
     margin: 0 auto;
@@ -139,20 +129,20 @@ h2 {
     background: rgba(0, 0, 0, 0.5);
   }
 
-  .work-content {
+  .section-content {
     padding-top: 35px;
     display: block;
     width: 80%;
     margin: 0 auto;
   }
 
-  .work-content h2 {
+  .section-content h2 {
     text-align: left;
     margin-left: 38px;
     font-size: 22px;
   }
 
-  .work-content p {
+  .section-content p {
     padding-bottom: 50px;
     text-align: left;
   }
@@ -165,24 +155,12 @@ h2 {
     left: 0px;
   }
 
-  .skills-content {
-    display: block;
-    width: 80%;
-    margin: 0 auto;
-  }
-
   .contact {
     display: block;
     width: 100%;
     margin: 0 auto;
     background: rgba(0, 0, 0, 0.5);
     left: 0px;
-  }
-
-  .contact-content {
-    display: block;
-    width: 80%;
-    margin: 0 auto;
   }
 }
 
@@ -206,32 +184,4 @@ h2 {
   .about-content {
     width: 860px;
   }
-
-  .work {
-    width: 100%;
-    margin: 0 auto;
-    background: rgba(0, 0, 0, 0.5);
-    left: 0px;
-  }
-
-  .work-content {
-    display: block;
-    width: 80%;
-    margin: 0 auto;
-  }
-
-  .work-content h1 {
-    margin-bottom: 30px;
-  }
-
-  .skills-content {
-    width: 80%;
-    margin: 0 auto;
-  }
-
-  .contact-content {
-    width: 80%;
-    margin: 0 auto;
-  }
-
 }
