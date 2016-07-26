@@ -10,6 +10,14 @@ i.fa.fa-bars::before {
   margin-top: 8em;
 }
 
+.first-name {
+  font-size: 3em;
+}
+
+.social-icons {
+  margin: 1.5em;
+}
+
 #primary-nav {
   display: none;
 }

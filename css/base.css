@@ -29,10 +29,6 @@ section h1:empty {
   display: none;
 }
 
-.social-icons {
-  margin: 1em;
-}
-
 nav {
   height: 50px;
 }
@@ -48,27 +44,9 @@ nav a {
   color: #efefef;
 }
 
-nav a:visted {
-  color:purple;
-}
-
-.first-name {
-  font-size: 3em;
-}
-
-h2 {
-  margin-top: 35px;
-  font-size: 18px;
-}
-
 p {
-  margin: 5%;
   font-size: 1.25em;
   line-height: 1.25em;
-}
-
-.about-content {
-  text-shadow: 2px 2px black;
 }
 
 .work {
@@ -102,8 +80,9 @@ p {
     font-size: 22px;
   }
 
-  h1 {
-    font-size: 2em;
+  .first-name {
+    font-size: 2.5em;
+    margin-top: -20%;
   }
 
   .icon-menu {
@@ -125,14 +104,12 @@ p {
     padding: 25px;
   }
 
-  .about-content {
-    width: 80%;
-    margin: 0 auto;
+  h1 {
+    font-size: 2em;
+    padding: 5%;
   }
 
   .section-content {
-    padding-top: 35px;
-    display: block;
     width: 80%;
     margin: 0 auto;
   }
@@ -146,7 +123,6 @@ p {
     padding-bottom: 50px;
     text-align: left;
   }
-
 
   .work {
     display: block;
