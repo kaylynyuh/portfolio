@@ -24,7 +24,8 @@
 
   h1.first-name {
     font-size: 2.5em;
-    margin-top: -25%;
+    margin-top: -20%;
+    height: .75em;
   }
 
   h1 {
@@ -50,6 +51,12 @@
     padding: 25px;
   }
 
+
+  section.about p {
+    padding-bottom: 20%;
+    text-align: center;
+  }
+
   .section-content {
     width: 80%;
     margin: 0 auto;
@@ -61,8 +68,7 @@
   }
 
   .section-content p {
-    padding-bottom: 50px;
-    text-align: left;
+    padding-bottom: 5%;
   }
 
   .work {
