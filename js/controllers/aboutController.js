@@ -1,8 +1,5 @@
 (function(module) {
   var aboutController = {};
-
-
-
   aboutController.reveal = function() {
     $('.nav-item').hide();
     $('[data-section=about]').fadeIn();

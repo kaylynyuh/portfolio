@@ -1,11 +1,21 @@
-page('/', index);
-page('/about', work);
+page('/', about);
+page('/work', work);
+page('/skills', skills);
+page('/contact', contact);
 page();
 
-function index() {
-  articleController.reveal();
+function about() {
+  aboutController.reveal();
 }
 
 function work() {
-  aboutController.reveal();
+  workController.reveal();
+}
+
+function skills() {
+  skillsController.reveal();
+}
+
+function contact() {
+  contactController.reveal();
 }
