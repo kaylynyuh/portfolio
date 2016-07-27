@@ -11,6 +11,10 @@ h1.first-name {
   margin-top: 35%;
 }
 
+section.about p {
+  text-align: center;
+}
+
 .social-icons {
   margin: 1.5em;
 }

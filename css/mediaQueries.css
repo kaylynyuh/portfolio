@@ -11,11 +11,9 @@
 
   nav li {
     display: inline;
-    margin: 0px;
     border-top: none;
     background: none;
-    padding-left: 35px;
-    font-size: 22px;
+    padding-left: 3%;
   }
 
   .name-about {
@@ -24,11 +22,17 @@
 
   h1.first-name {
     font-size: 2.5em;
-    margin-top: -25%;
+    margin-top: -30%;
+    height: .75em;
+  }
+
+  .social-icons {
+    margin-top: 0%;
   }
 
   h1 {
     font-size: 2em;
+    padding: 5%;
   }
 
   .icon-menu {
@@ -50,19 +54,25 @@
     padding: 25px;
   }
 
+
+  section.about p {
+    padding-bottom: 15%;
+    text-align: center;
+  }
+
+  section.skills p {
+    display: inline;
+  }
+
   .section-content {
     width: 80%;
     margin: 0 auto;
+    padding-bottom: 10%;
   }
 
   .section-content h2 {
     text-align: left;
     font-size: 1.5em;
-  }
-
-  .section-content p {
-    padding-bottom: 50px;
-    text-align: left;
   }
 
   .work {
@@ -87,11 +97,16 @@
     background: rgba(0, 0, 0, 0.5);
     left: 0px;
   }
+
+  /*section.contact a {
+    text-decoration: none;
+    color: #efefef;
+  }*/
 }
 
 @media screen and (min-width: 1200px) {
   nav li {
-    font-size: 1.25em;
+    font-size: 1em;
   }
 
   p {

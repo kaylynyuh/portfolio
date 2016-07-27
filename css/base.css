@@ -44,6 +44,11 @@ nav a {
   color: #efefef;
 }
 
+h1 {
+  font-size: 1.75em;
+  padding-top: 15%;
+}
+
 h2 {
   margin: 5% 0% 3% 10%;
   font-size: 1.25em;

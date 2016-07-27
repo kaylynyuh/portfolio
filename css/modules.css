@@ -1,3 +1,12 @@
+section.about p {
+  text-align: center;
+}
+
+section.sklls p {
+  text-align: center;
+  display: block;
+}
+
 .name-about {
   margin: 5%;
   margin-top: 35%;
@@ -15,6 +24,8 @@
   margin: .5em;
 }
 
-nav a:visted {
-  color:purple;
+section.contact a {
+  text-decoration: none;
+  color: #efefef;
+  text-align: center;
 }
