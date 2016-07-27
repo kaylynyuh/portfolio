@@ -23,3 +23,9 @@ section.sklls p {
   font-size: 1.5em;
   margin: .5em;
 }
+
+section.contact a {
+  text-decoration: none;
+  color: #efefef;
+  text-align: center;
+}

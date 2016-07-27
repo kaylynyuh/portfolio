@@ -97,6 +97,11 @@
     background: rgba(0, 0, 0, 0.5);
     left: 0px;
   }
+
+  /*section.contact a {
+    text-decoration: none;
+    color: #efefef;
+  }*/
 }
 
 @media screen and (min-width: 1200px) {
