@@ -19,7 +19,7 @@
   }
 
   .name-about {
-    margin-top: 25%;
+    margin-top: 35%;
   }
 
   h1.first-name {
@@ -29,8 +29,6 @@
 
   h1 {
     font-size: 2em;
-    margin-top: 0;
-    margin-bottom: 0;
   }
 
   .icon-menu {
@@ -50,12 +48,6 @@
     display:block!important;
     background: rgba(0, 0, 0, 0.5);
     padding: 25px;
-  }
-
-  h1 {
-    font-size: 2em;
-    padding: 5%;
-    margin-top: 0%;
   }
 
   .section-content {
