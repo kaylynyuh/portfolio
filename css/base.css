@@ -34,10 +34,9 @@ nav {
 }
 
 nav li {
-  display: block;
-  padding: 5px 10px;
+  padding: 1% 7%;
   background: rgba(0, 0, 0, 0.5);
-  border-top: .1em solid white;
+  border-top: .1em solid #efefef;
 }
 
 nav a {
@@ -45,21 +44,18 @@ nav a {
   color: #efefef;
 }
 
-nav a:visted {
-  color:purple;
-}
-
-h1 {
-  font-size: 52px;
-}
-
 h2 {
-  margin-top: 35px;
-  font-size: 18px;
+  margin: 5% 0% 3% 10%;
+  font-size: 1.25em;
+  text-align: left;
 }
 
-.about-content {
-  text-shadow: 2px 2px black;
+p {
+  font-size: 1.25em;
+  line-height: 1.25em;
+  text-align: left;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .work {
@@ -74,164 +70,7 @@ h2 {
   display: none;
 }
 
-@media screen and (min-width: 760px) {
-  main {
-    background: rgba(0, 0, 0, 0.5);
-    height:auto;
-  }
-
-  .header-wrapper {
-    width: 100%;
-    margin: 0 auto;
-  }
-
-  body {
-    font-size: 18px;
-  }
-
-  nav li {
-    display: inline;
-    margin: 0px;
-    border-top: none;
-    background: none;
-    padding-left: 35px;
-    font-size: 22px;
-  }
-
-  .icon-menu {
-    display: none;
-  }
-
-  .social-icons a {
-    font-size: 1.5em;
-  }
-
-  .icon-github {
-    text-decoration: none;
-    color: #efefef;
-  }
-
-  #primary-nav {
-    display:block!important;
-    background: rgba(0, 0, 0, 0.5);
-    padding: 25px;
-  }
-
-  h1:not(.name-content h1) {
-    font-size: 42px;
-    margin-bottom: 50px;
-    padding-top: 50px;
-  }
-
-  p {
-    font-size: 20px;
-  }
-
-  .about-content {
-    width: 80%;
-    margin: 0 auto;
-  }
-
-  .work {
-    display: block;
-    width: 100%;
-    margin: 0 auto;
-    background: rgba(0, 0, 0, 0.5);
-  }
-
-  .work-content {
-    padding-top: 35px;
-    display: block;
-    width: 80%;
-    margin: 0 auto;
-  }
-
-  .work-content h2 {
-    text-align: left;
-    margin-left: 38px;
-    font-size: 22px;
-  }
-
-  .work-content p {
-    padding-bottom: 50px;
-    text-align: left;
-  }
-
-  .skills {
-    display: block;
-    width: 100%;
-    margin: 0 auto;
-    background: rgba(0, 0, 0, 0.5);
-    left: 0px;
-  }
-
-  .skills-content {
-    display: block;
-    width: 80%;
-    margin: 0 auto;
-  }
-
-  .contact {
-    display: block;
-    width: 100%;
-    margin: 0 auto;
-    background: rgba(0, 0, 0, 0.5);
-    left: 0px;
-  }
-
-  .contact-content {
-    display: block;
-    width: 80%;
-    margin: 0 auto;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  nav li {
-    font-size: 24px;
-  }
-
-  h1:not(.name-content h1) {
-    font-size: 3em;
-  }
-
-  h2 {
-    font-size: 26px;
-  }
-
-  p {
-    font-size: 22px;
-  }
-
-  .about-content {
-    width: 860px;
-  }
-
-  .work {
-    width: 100%;
-    margin: 0 auto;
-    background: rgba(0, 0, 0, 0.5);
-    left: 0px;
-  }
-
-  .work-content {
-    display: block;
-    width: 80%;
-    margin: 0 auto;
-  }
-
-  .work-content h1 {
-    margin-bottom: 30px;
-  }
-
-  .skills-content {
-    width: 80%;
-    margin: 0 auto;
-  }
-
-  .contact-content {
-    width: 80%;
-    margin: 0 auto;
-  }
-
+.name-about {
+  margin: 5%;
+  margin-top: 35%;
 }

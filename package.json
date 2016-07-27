@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Code Fellows 301 portfolio project",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaylynyuh/portfolio.git"
+  },
+  "author": "yuhkay4@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaylynyuh/portfolio/issues"
+  },
+  "homepage": "https://github.com/kaylynyuh/portfolio#readme"
+}

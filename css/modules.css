@@ -1,5 +1,6 @@
-.name-about h1 {
-  padding-bottom: .5em;
+.name-about {
+  margin: 5%;
+  margin-top: 35%;
 }
 
 .social-icons li {
@@ -14,38 +15,6 @@
   margin: .5em;
 }
 
-.about-content p {
-  line-height: 1.5em;
-  margin-top: 2em;
-  margin-bottom: 5em;
-}
-
-.work-content h1 {
-  margin-top: 50px;
-  font-size: 35px;
-}
-
-.work-content p {
-  margin-top: -20px;
-  line-height: 1.5em;
-  padding: 35px;
-}
-
-/* ELW: these two sections are displaying differently on the page. */
-.skills-content h1 {
-  font-size: 35px;
-}
-
-.skills-content p {
-  line-height: 1.5em;
-  padding: 35px;
-}
-
-.contact-content h1{
-  font-size: 35px;
-}
-
-.contact-content p {
-  line-height: 1.5em;
-  padding: 35px;
+nav a:visted {
+  color:purple;
 }
