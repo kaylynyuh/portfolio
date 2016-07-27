@@ -24,12 +24,13 @@
 
   h1.first-name {
     font-size: 2.5em;
-    margin-top: -20%;
+    margin-top: -30%;
     height: .75em;
   }
 
   h1 {
     font-size: 2em;
+    padding: 5%;
   }
 
   .icon-menu {
@@ -53,22 +54,19 @@
 
 
   section.about p {
-    padding-bottom: 20%;
+    padding-bottom: 15%;
     text-align: center;
   }
 
   .section-content {
     width: 80%;
     margin: 0 auto;
+    padding-bottom: 10%;
   }
 
   .section-content h2 {
     text-align: left;
     font-size: 1.5em;
-  }
-
-  .section-content p {
-    padding-bottom: 5%;
   }
 
   .work {
