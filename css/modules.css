@@ -1,5 +1,10 @@
-secton.about p {
+section.about p {
   text-align: center;
+}
+
+section.sklls p {
+  text-align: center;
+  display: block;
 }
 
 .name-about {

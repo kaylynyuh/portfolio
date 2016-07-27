@@ -26,6 +26,10 @@
     height: .75em;
   }
 
+  .social-icons {
+    margin-top: 0%;
+  }
+
   h1 {
     font-size: 2em;
     padding: 5%;
@@ -54,6 +58,10 @@
   section.about p {
     padding-bottom: 15%;
     text-align: center;
+  }
+
+  section.skills p {
+    display: inline;
   }
 
   .section-content {
