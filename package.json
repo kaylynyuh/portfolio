@@ -1,14 +1,16 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "description": "Code Fellows 301 portfolio project",
+  "description": "My portfolio",
   "main": "server.js",
   "dependencies": {
-    "express": "^4.14.0"
+    "express": "^4.14.0",
+    "express-request-proxy": "^2.0.0"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -20,20 +22,4 @@
     "url": "https://github.com/kaylynyuh/portfolio/issues"
   },
   "homepage": "https://github.com/kaylynyuh/portfolio#readme"
-}
-
-{
-  "name": "blog-app",
-  "version": "1.0.0",
-  "description": "MVC for the win",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "kaylynyuh@codefellows.com",
-  "license": "MIT",
-  "dependencies": {
-    "express": "^4.13.3",
-    "express-request-proxy": "^2.0.0"
-  }
 }
