@@ -1,20 +1,18 @@
 [
   {
     "name": "work",
-    "title": "Work",
-    "project-name": "BroNacho",
-    "project-link": "http://www.bronacho.com/html/results.html",
-    "icon-class": "icon-github",
+    "projectName": "BroNacho",
+    "projectLink": "http://www.bronacho.com/html/results.html",
+    "iconClass": "icon-github",
     "paragraph": "A website that measures compatability between users based off of user selections from a list of ingredients that they pick and choose from to design their \"ideal nacho.\" <br><span class=\"read-more-content\"> ",
-    "paragraph-read-more": "Their selections are generated into a percentage that are then compared to other user percentages and displayed on a results page. The results page displays the top three most compatible \"BroNachos\" as well the bottom three of the least compatible which are referred to as \"Nah'cho Bros.\"</span>"
+    "paragraphReadMore": "Their selections are generated into a percentage that are then compared to other user percentages and displayed on a results page. The results page displays the top three most compatible \"BroNachos\" as well the bottom three of the least compatible which are referred to as \"Nah'cho Bros.\"</span>"
   },
   {
      "name": "",
-     "title": "",
-     "project-name": "BusMall",
-     "project-link":  "https://kaylynyuh.github.io/bus-mall",
-     "icon-class": "icon-github",
+     "projectName": "BusMall",
+     "projectLink":  "https://kaylynyuh.github.io/bus-mall",
+     "iconClass": "icon-github",
      "paragraph": "An app that displays potential products to individual focus groups that allows users to select the products that they would most likely use or want.   <br><span class=\"read-more-content\">",
-     "paragraph-read-more": "The information generated helps market researches determine which products to feature in their catalog based off of what products are most likely to sell. This helps filter out products that will be popular as well as products that will be less popular.</span></p>"
+     "paragraphReadMore": "The information generated helps market researches determine which products to feature in their catalog based off of what products are most likely to sell. This helps filter out products that will be popular as well as products that will be less popular.</span></p>"
   }
 ]

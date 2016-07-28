@@ -26,15 +26,15 @@
     </script>
     <!-- Work Template -->
     <script id="work-template" type="text/x-handlebars-template">
-      <h1>{{title}}</h1>
-        <h2>{{project-name}}<a href="{{project-link}}" class="{{icon-class}}"></a></h2>
-          <p>{{paragraph}}</p>
-          <p>{{paragraph-read-more}}</p>
+      <h2>{{projectName}}<a href="{{projectLink}}" class="{{iconClass}}"></a></h2>
+        <p>{{paragraph}}<br><span class="read-more-content"></p>
+        <p>{{paragraphReadMore}}</span></p>
     </script>
     <!-- Skills Template -->
     <script id="skills-template" type="text/x-handlebars-template">
-      <h1>{{title}}</h1>
-        <ul>{{skills-list}}</ul>
+        <ul class="skills-list">
+          <li>{{skillName}}</li>
+        </ul>
     </script>
     <!-- Repo Template -->
     <script id="repo-template" type="text/x-handlebars-template">
@@ -69,30 +69,32 @@
         <ul class="social-icons"></ul>
         <p>A pluviophile and Web Developer from Seattle who likes to write code, explore the outdoors, and drink coffee.</p>
       </section>
-      <section class="work-content">
+      <section class="work">
         <h1>Work</h1>
+      </section>
+      <section class="skills">
+        <h1>Skills</h1>
       </section>
     </main>
     <script src="vendor/scripts/page.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.4/handlebars.js"></script>
     <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
     <script src="data/icons.json"></script>
-    <!-- <script src="data/sections.json"></script>
-    <script src="data/skills.json"></script>-->
+    <!-- <script src="data/sections.json"></script>-->
+    <script src="data/skills.json"></script>
     <script src="data/work.json"></script>
     <!-- Model Files -->
     <!-- <script src="/js/assets/githubToken.js"></script>-->
     <!-- <script src="js/models/repo.js"></script>
     <script src="js/models/section.js"></script>
     <script src="js/models/skills.js"></script>
-    <script src="js/models/work.js"></script> -->
-    <!-- View Files -->
+    View Files -->
     <script src="js/views/iconsView.js"></script>
     <!-- <script src="js/views/repoView.js"></script>
-    <script src="js/views/sectionView.js"></script>
-    <script src="js/views/skillsView.js"></script>-->
+    <script src="js/views/sectionView.js"></script>-->
+    <script src="js/views/skillsView.js"></script>
     <script src="js/views/workView.js"></script>
-    <!-- Controller Files -->
+    <!--Controller Files -->
     <!-- <script src="js/controllers/aboutController.js"></script>
     <script src="js/controllers/workController.js"></script>
     <script src="js/controllers/skillsController.js"></script>

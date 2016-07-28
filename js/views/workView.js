@@ -2,8 +2,11 @@
 
   function Work (opts) {
     this.name = opts.name;
-    this.title = opts.title;
-    this.body = opts.body;
+    this.projectName = opts.projectName;
+    this.projectLink = opts.projectLink;
+    this.iconClass = opts.iconClass;
+    this.paragraph = opts.paragraph;
+    this.paragraphReadMore = opts.paragraphReadMore;
   }
 
   Work.all = [];
@@ -21,16 +24,16 @@
     });
   };
 
-  Work.appendWorks = function() {
+  Work.appendWorkSection = function() {
     Work.all.forEach(function(ele) {
-      $('.work-content').append(ele.toHtml('#work-template'));
+      $('.work').append(ele.toHtml('#work-template'));
     });
   };
 
   Work.fetchAll = function() {
     if (localStorage.work) {
       Work.loadAll(JSON.parse(localStorage.Work));
-      Work.appendWorks();
+      Work.appendWorkSection();
     } else {
       // Load our json data
       $.ajax({
@@ -41,7 +44,7 @@
         // Store that data in localStorage so we can skip the server call next time
         localStorage.Work = JSON.stringify(data);
         Work.loadAll(data);
-        Work.appendWork();
+        Work.appendWorkSection();
       });
     }
   };
