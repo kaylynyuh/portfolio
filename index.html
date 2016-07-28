@@ -11,15 +11,30 @@
     <link rel="stylesheet" href="css/icons.css">
     <link rel="stylesheet" href="css/mediaQueries.css">
     <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel='stylesheet' type='text/css'>
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
     <!-- Section Template -->
-    <script id="section-template" type="text/x-handlebars-template">
+    <!-- <script id="section-template" type="text/x-handlebars-template">
       <section class="{{name}}" data-section="{{name}}">
         <div class="section-content">
           <h1>{{title}}</h1>
           <p>{{{body}}}</p>
         </div>
       </section>
+    </script> -->
+    <!-- Social Icons Template -->
+    <script id="social-icons-template" type="text/x-handlebars-template">
+      <li><a href="{{url}}" class="{{iconClass}}"></a></li>
+    </script>
+    <!-- Work Template -->
+    <script id="work-template" type="text/x-handlebars-template">
+      <h1>{{title}}</h1>
+        <h2>{{project-name}}<a href="{{project-link}}" class="{{icon-class}}"></a></h2>
+          <p>{{paragraph}}</p>
+          <p>{{paragraph-read-more}}</p>
+    </script>
+    <!-- Skills Template -->
+    <script id="skills-template" type="text/x-handlebars-template">
+      <h1>{{title}}</h1>
+        <ul>{{skills-list}}</ul>
     </script>
     <!-- Repo Template -->
     <script id="repo-template" type="text/x-handlebars-template">
@@ -45,46 +60,40 @@
               <li><a href="/" data-section="about" class="navItem">Home</a></li>
               <li><a href="/work" data-section="work" class="navItem">Work</a></li>
               <li><a href="/skills" data-section="skills" class="navItem">Skills</a></li>
-              <!-- <li><a href="/contact" data-section="contact" class="navItem">Get In Touch</a></li> -->
             </ul>
           </nav>
         </header>
       </div>
       <div class="name-about">
         <h1 class="first-name">Kaylyn Yuh</h1>
-        <ul class="social-icons">
-          <li><a href="https://github.com/kaylynyuh" class="icon-github"></a></li>
-          <li><a href="https://www.linkedin.com/in/kaylynyuh" class="icon-linkedin"></a></li>
-          <li><a href="https://www.twitter.com/kaylynyuh" class="icon-twitter"></a></li>
-          <li><a href="mailto:yuhkay4@gmail.com" <i class="fa fa-envelope" aria-hidden="true"></i></a>
-        </ul>
+        <ul class="social-icons"></ul>
+        <p>A pluviophile and Web Developer from Seattle who likes to write code, explore the outdoors, and drink coffee.</p>
       </div>
     </main>
     <script src="vendor/scripts/page.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.4/handlebars.js"></script>
     <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
     <script src="data/icons.json"></script>
-    <script src="data/sections.json"></script>
+    <!-- <script src="data/sections.json"></script>
     <script src="data/skills.json"></script>
-    <script src="data/work.json"></script>
+    <script src="data/work.json"></script> -->
     <!-- Model Files -->
-    <script src="/js/assets/githubToken.js"></script>
-    <script src="js/models/icons.js"></script>
-    <script src="js/models/repo.js"></script>
+    <!-- <script src="/js/assets/githubToken.js"></script>-->
+    <!-- <script src="js/models/repo.js"></script>
     <script src="js/models/section.js"></script>
     <script src="js/models/skills.js"></script>
-    <script src="js/models/work.js"></script>
+    <script src="js/models/work.js"></script> -->
     <!-- View Files -->
     <script src="js/views/iconsView.js"></script>
-    <script src="js/views/repoView.js"></script>
+    <!-- <script src="js/views/repoView.js"></script>
     <script src="js/views/sectionView.js"></script>
     <script src="js/views/skillsView.js"></script>
-    <script src="js/views/workView.js"></script>
+    <script src="js/views/workView.js"></script>  -->
     <!-- Controller Files -->
-    <script src="js/controllers/aboutController.js"></script>
+    <!-- <script src="js/controllers/aboutController.js"></script>
     <script src="js/controllers/workController.js"></script>
     <script src="js/controllers/skillsController.js"></script>
     <script src="js/controllers/contactController.js"></script>
-    <script src="js/controllers/routes.js"></script>
+    <script src="js/controllers/routes.js"></script> -->
   </body>
 </html>
