@@ -28,6 +28,7 @@
     Work.all.forEach(function(ele) {
       $('.work').append(ele.toHtml('#work-template'));
     });
+    $('.read-more-content').addClass('hide');
   };
 
   Work.fetchAll = function() {
