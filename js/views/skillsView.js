@@ -1,12 +1,7 @@
 (function(module){
 
   function Skills (opts) {
-    this.name = opts.name;
-    this.projectName = opts.projectName;
-    this.projectLink = opts.projectLink;
-    this.iconClass = opts.iconClass;
-    this.paragraph = opts.paragraph;
-    this.paragraphReadMore = opts.paragraphReadMore;
+    this.skillName = opts.skillName;
   }
 
   Skills.all = [];
@@ -43,8 +38,8 @@
       }).done(function(data) {
         // Store that data in localStorage so we can skip the server call next time
         localStorage.Skills = JSON.stringify(data);
-        Work.loadAll(data);
-        Work.appendSkillsSection();
+        Skills.loadAll(data);
+        Skills.appendSkillsSection();
       });
     }
   };
