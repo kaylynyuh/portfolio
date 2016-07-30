@@ -1,20 +1,20 @@
 [
   {
-    "skillName": "HTML/CSS"
+    "skillName": "HTML/CSS",
   },
   {
-    "skillName": "jQuery"
+    "skillName": "jQuery",
   },
   {
-    "skillName": "JavaScript"
+    "skillName": "JavaScript",
   },
   {
-    "skillName": "SQL"
+    "skillName": "SQL",
   },
   {
-    "skillName": "Git Version Control"
+    "skillName": "Git Version Control",
   },
   {
-    "skillName": "Handlebars"
-  },
+    "skillName": "Handlebars",
+  }
 ]

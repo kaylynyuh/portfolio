@@ -20,20 +20,22 @@
   };
 
   Skills.appendSkillsSection = function() {
+    console.log('foo');
     Skills.all.forEach(function(ele) {
-      $('.skills').append(ele.toHtml('#skills-template'));
+      $('.skills-list').append(ele.toHtml('#skills-template'));
     });
   };
 
   Skills.fetchAll = function() {
-    if (localStorage.work) {
+    console.log('stuff');
+    if (localStorage.Skills) {
       Skills.loadAll(JSON.parse(localStorage.Skills));
       Skills.appendSkillsSection();
     } else {
       // Load our json data
       $.ajax({
         type: 'GET',
-        url: '/data/skills.json',
+        url: '../data/skills.json',
         dataType: 'json'
       }).done(function(data) {
         // Store that data in localStorage so we can skip the server call next time
@@ -43,7 +45,7 @@
       });
     }
   };
-
+  console.log('being called in');
   Skills.fetchAll();
   module.Skills = Skills;
 })(window);
